@@ -1,11 +1,20 @@
-h1 {
+.jumbotron {
+  background-image: url("images/starwars.jpg");
+  min-height: 500px;
+  max-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bio {
+
+}
+
+#bio h1 {
   font-family: sans-serif;
+  font-weight: lighter;
 }
 
-p {
-  color: red;
-}
+#bio p {
 
-#intro p {
-  color: green;
 }
