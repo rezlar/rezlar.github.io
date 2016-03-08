@@ -1,0 +1,11 @@
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  color: red;
+}
+
+#intro p {
+  color: green;
+}
