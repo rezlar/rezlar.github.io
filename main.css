@@ -4,6 +4,7 @@
   max-height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left;
 }
 
 #bio {
@@ -17,4 +18,8 @@
 
 #bio p {
 
+}
+
+#acabadge {
+  max-width: 250px;
 }
