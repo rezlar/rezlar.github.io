@@ -1,13 +1,13 @@
 .jumbotron {
-  background-image: url("images/hillside.jpg");
+  background-image: url("images/hillside2.jpg");
   min-height: 500px;
   max-height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center bottom;
 }
 
 #bio {
-
 }
 
 #bio h1 {
@@ -17,4 +17,12 @@
 
 #bio p {
 
+}
+
+#acabadge{max-height: 75px;
+
+}
+#intro {font-family: sans-serif;
+  color: white;
+  
 }
