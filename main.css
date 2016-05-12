@@ -1,10 +1,10 @@
 .jumbotron {
   background-image: url("images/hillside2.jpg");
-  min-height: 500px;
-  max-height: 700px;
+  min-height: 580px;
+  max-height: 700px
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center -425px;
 }
 
 #bio {
@@ -24,5 +24,5 @@
 }
 #intro {font-family: sans-serif;
   color: white;
-  
+
 }
