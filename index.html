@@ -254,20 +254,43 @@
             </div>
         </aside>
 
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading">Let's Get In Touch!</h2>
-                        <hr class="primary">
-                        <p>Looking for more informaion or for business inquires send me an email! I will get back to you as soon as possible!</p>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-0 text-center">
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="primary">
+                    <form method="post" action="submit.php">
+                      <p>Contact Form</p>
 
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p><a href="mailto:blackfindmedia@gmail.com">BlackfindMedia@gmail.com</a></p>
+                      <style type="text/css">
+                        .antispam { display:none;}
+                      </style>
+
+                      <script type="text/javascript">
+                        // split your email into two parts and remove the @ symbol
+                        var first = "blackfindmedia";
+                        var last = "gmail.com";
+                      </script>
+
+                      <p>Your name:
+                      <br /><input name="name" /></p>
+
+                      <p>Your email:
+                      <br /><input name="email" /></p>
+
+                      <p class="antispam">Leave this empty:
+                      <br /><input name="url" /></p>
+
+                      <p>Your message:
+                      <br /><textarea name="message" rows="10" cols="50"></textarea></p>
+
+                      <p><input type="submit" value="Send" /></p>
+
+                    </form>
+
+
+
                     </div>
                 </div>
             </div>
