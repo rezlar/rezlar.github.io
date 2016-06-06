@@ -1,0 +1,21 @@
+.jumbotron1 {
+  background-color: #0000CD;
+}
+
+.jumbotron1 h1 {
+  font-size: 108px;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 0px 1px 1px gray;
+  padding-top: 25px
+}
+
+.jumbotron1 ul {
+  color: #fff;
+  font-size: 18px;
+  top: 300px;
+  display: block;
+  list-style: none;
+  padding-left: 0px;
+  text-shadow: 0px 1px 1px gray;
+}
