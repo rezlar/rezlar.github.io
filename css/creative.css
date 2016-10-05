@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #0000CD;
+  border-color: #800000;
   border-width: 3px;
   max-width: 50px;
 }
@@ -24,11 +24,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0000CD;
+  color: #800000;
 }
 a:hover,
 a:focus {
-  color: #0000CD;
+  color: #800000;
 }
 h1,
 h2,
@@ -44,10 +44,10 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #0000CD;
+  background-color: #800000;
 }
 .bg-dark {
-  background-color: #0000CD;
+  background-color: #800000;
   color: white;
 }
 .text-faded {
@@ -71,7 +71,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #0000CD;
+  color: #800000;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -85,15 +85,15 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #0000CD;
+  color: #800000;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #0000CD;
+  color: #800000;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #0000CD !important;
+  color: #800000 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -125,7 +125,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #0000CD;
+    color: #800000;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -138,7 +138,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #0000CD;
+    color: #800000;
   }
 }
 header {
@@ -224,7 +224,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(0, 0, 205, 0.9);
+  background: rgba(128, 0, 0, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -384,12 +384,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: 	#0000CD;
+  background: 	#800000;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: 	#0000CD;
+  background: 	#800000;
 }
 img::selection {
   color: white;
