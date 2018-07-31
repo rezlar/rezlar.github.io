@@ -14,55 +14,56 @@
         <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="assets/css/custom.css" >
         <script src="assets/js/libs/modernizr.custom.23122.js"></script>
     </head>
-    <body class="has-header" data-pagination-style="none">
-                        <header class="">
+    <body class="has-header row-spacing-none" data-pagination-style="scroll" data-target-row-height="178">
+                        <header class="is-fixed">
             <div class="background"></div>
             <div class="meta-left">
                 <p id="galleryTitle" class="title">Photography Portfolio</p>
-                                <p id="galleryAuthor" class="author">by <a id="galleryAuthorURL" href="index.html" target="_blank">Brandon Smith</a></p>
-                            </div>
+                                <p id="galleryAuthor" class="author">by <a id="galleryAuthorURL" href="www.brandon-smith.ca" target="_blank">Brandon Smith</a></p>
+                                </p>
+            </div>
             <div class="meta-right">
-                <p class="extra" id="galleryExtra"></p>
+
             </div>
-            <div id="buttonFullscreen" title="Fullscreen Mode">
-                <div class="icon">
-                    <svg version="1.1" id="svgIconFullscreen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 16" style="enable-background:new 0 0 18 16;" xml:space="preserve">
-                    <g>
-                        <path class="custom-colorable" d="M5.3871,9.95599C5.19136,9.76858,4.99176,9.85763,4.79376,10.0472l-2.86173,2.74138v-1.55466
-                            c0-0.25257-0.21387-0.45733-0.47767-0.45733H0.47767C0.21387,10.7766,0,10.98136,0,11.23393v3.37367v0.93511
-                            C0,15.79524,0.21387,16,0.47767,16h0.97668h3.5238c0.26377,0,0.47764-0.20476,0.47764-0.45729v-0.93511
-                            c0-0.25254-0.21387-0.45733-0.47764-0.45733H3.34554l2.86694-2.7451c0.198-0.18957,0.30914-0.44923,0.11342-0.63664L5.3871,9.95599
-                            z"/>
-                        <path class="custom-colorable" d="M17.52233,10.7766h-0.97672c-0.26377,0-0.47764,0.20476-0.47764,0.45733v1.55466l-2.86172-2.74138
-                            c-0.198-0.18957-0.39764-0.27862-0.59335-0.09121l-0.93879,0.81254c-0.19575,0.18741-0.08458,0.44707,0.11342,0.63664
-                            l2.8669,2.7451h-1.63258c-0.26377,0-0.47764,0.20479-0.47764,0.45733v0.93511c0,0.25254,0.21387,0.45729,0.47764,0.45729h3.52376
-                            h0.97672C17.7861,16,18,15.79524,18,15.54271v-0.93511v-3.37367C18,10.98136,17.7861,10.7766,17.52233,10.7766z"/>
-                        <path class="custom-colorable" d="M3.34554,1.84973h1.63262c0.26377,0,0.47764-0.20479,0.47764-0.45733V0.45733C5.45579,0.20476,5.24193,0,4.97815,0h-3.5238
-                            H0.47767C0.21387,0,0,0.20476,0,0.45733v0.93508v3.3737C0,5.01864,0.21387,5.2234,0.47767,5.2234h0.97668
-                            c0.26381,0,0.47767-0.20476,0.47767-0.45729V3.21142L4.79376,5.9528c0.198,0.18957,0.3976,0.27862,0.59335,0.09121l0.93879-0.81254
-                            C6.52161,5.04409,6.41048,4.7844,6.21247,4.59483L3.34554,1.84973z"/>
-                        <path class="custom-colorable" d="M17.52233,0h-0.97672h-3.52376c-0.26377,0-0.47764,0.20476-0.47764,0.45733v0.93508
-                            c0,0.25254,0.21387,0.45733,0.47764,0.45733h1.63258l-2.8669,2.7451c-0.19801,0.18957-0.30917,0.44926-0.11342,0.63663
-                            l0.93879,0.81254c0.19571,0.18741,0.39535,0.09836,0.59335-0.09121l2.86172-2.74138V4.7661
-                            c0,0.25254,0.21387,0.45729,0.47764,0.45729h0.97672C17.7861,5.2234,18,5.01864,18,4.7661v-3.3737V0.45733
-                            C18,0.20476,17.7861,0,17.52233,0z"/>
-                    </g>
-                    </svg>
-                </div>
-            </div>
+            <ul class="gallery-meta">
+                <li id="buttonFullscreen" title="Fullscreen Mode">
+                    <div class="icon">
+                        <svg version="1.1" id="svgIconFullscreen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 16" style="enable-background:new 0 0 18 16;" xml:space="preserve">
+                        <g>
+                            <path class="custom-colorable" d="M5.3871,9.95599C5.19136,9.76858,4.99176,9.85763,4.79376,10.0472l-2.86173,2.74138v-1.55466
+                                c0-0.25257-0.21387-0.45733-0.47767-0.45733H0.47767C0.21387,10.7766,0,10.98136,0,11.23393v3.37367v0.93511
+                                C0,15.79524,0.21387,16,0.47767,16h0.97668h3.5238c0.26377,0,0.47764-0.20476,0.47764-0.45729v-0.93511
+                                c0-0.25254-0.21387-0.45733-0.47764-0.45733H3.34554l2.86694-2.7451c0.198-0.18957,0.30914-0.44923,0.11342-0.63664L5.3871,9.95599
+                                z"/>
+                            <path class="custom-colorable" d="M17.52233,10.7766h-0.97672c-0.26377,0-0.47764,0.20476-0.47764,0.45733v1.55466l-2.86172-2.74138
+                                c-0.198-0.18957-0.39764-0.27862-0.59335-0.09121l-0.93879,0.81254c-0.19575,0.18741-0.08458,0.44707,0.11342,0.63664
+                                l2.8669,2.7451h-1.63258c-0.26377,0-0.47764,0.20479-0.47764,0.45733v0.93511c0,0.25254,0.21387,0.45729,0.47764,0.45729h3.52376
+                                h0.97672C17.7861,16,18,15.79524,18,15.54271v-0.93511v-3.37367C18,10.98136,17.7861,10.7766,17.52233,10.7766z"/>
+                            <path class="custom-colorable" d="M3.34554,1.84973h1.63262c0.26377,0,0.47764-0.20479,0.47764-0.45733V0.45733C5.45579,0.20476,5.24193,0,4.97815,0h-3.5238
+                                H0.47767C0.21387,0,0,0.20476,0,0.45733v0.93508v3.3737C0,5.01864,0.21387,5.2234,0.47767,5.2234h0.97668
+                                c0.26381,0,0.47767-0.20476,0.47767-0.45729V3.21142L4.79376,5.9528c0.198,0.18957,0.3976,0.27862,0.59335,0.09121l0.93879-0.81254
+                                C6.52161,5.04409,6.41048,4.7844,6.21247,4.59483L3.34554,1.84973z"/>
+                            <path class="custom-colorable" d="M17.52233,0h-0.97672h-3.52376c-0.26377,0-0.47764,0.20476-0.47764,0.45733v0.93508
+                                c0,0.25254,0.21387,0.45733,0.47764,0.45733h1.63258l-2.8669,2.7451c-0.19801,0.18957-0.30917,0.44926-0.11342,0.63663
+                                l0.93879,0.81254c0.19571,0.18741,0.39535,0.09836,0.59335-0.09121l2.86172-2.74138V4.7661
+                                c0,0.25254,0.21387,0.45729,0.47764,0.45729h0.97672C17.7861,5.2234,18,5.01864,18,4.7661v-3.3737V0.45733
+                                C18,0.20476,17.7861,0,17.52233,0z"/>
+                        </g>
+                        </svg>
+                    </div>
+                </li>
+            </ul>
         </header>
                 <div id="thumbnailContainer">
-            <div class="thumbnails thumbnail-size-md"></div>
+            <div class="thumbnails"></div>
         </div>
         <div id="loupeContainer" class="show-corners">
             <div class="background"></div>
-            <div class="image-container"></div>
+            <div class="image-container"></div>    
             <div class="side-navigation">
                 <div class="hotspot" id="hotspotPrevLoupe">
                     <div class="button" id="buttonPrevSideLoupe">
-                        <svg version="1.1" baseProfile="basic" id="svgIconPrevSideLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" xml:space="preserve">
-                            <path class="icon custom-colorable" fill="#231F20" d="M0,0l0,50h50V0L0,0z M18.49,25.05l9.707-9.264c0.418-0.399,1.093-0.403,1.506-0.008l1.498,1.43 c0.414,0.395,0.41,1.039-0.009,1.438l-6.765,6.456l6.613,6.31c0.411,0.392,0.414,1.024,0.008,1.412l-1.471,1.404 c-0.406,0.387-1.069,0.384-1.479-0.008l-6.612-6.311L18.49,25.05z"/>
-                        </svg>
+                        <svg version="1.1" baseProfile="basic" id="svgIconPrevSideLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" xml:space="preserve"><path class="icon custom-colorable" fill="#231F20" d="M0,0l0,50h50V0L0,0z M18.491,25.05l9.707-9.264c0.418-0.399,1.092-0.403,1.506-0.008l1.498,1.43c0.413,0.395,0.41,1.039-0.009,1.438l-6.765,6.456l6.613,6.31c0.41,0.392,0.414,1.024,0.008,1.412l-1.471,1.404c-0.406,0.387-1.068,0.384-1.479-0.008l-6.612-6.311L18.491,25.05z"/></svg>
                     </div>
                 </div>
                 <div class="hotspot" id="hotspotNextLoupe">
@@ -73,8 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="info-container">
-                <div id="loupeMeta"></div>
+            <div class="lateral-nav-container">
                 <ul class="lateral-nav">
                     <li id="buttonPrev">
                         <svg version="1.1" id="svgIconPrevLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
@@ -99,6 +99,9 @@
                     </li>
                 </ul>
             </div>
+            <div class="info-container">
+                <div id="loupeMeta"></div>
+            </div>
             <div id="loupeCloseButton">
                 <svg version="1.1" id="svgIconLoupeClose" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
@@ -112,75 +115,73 @@
         </div>
         <script type="text/javascript">
             var LR = LR || {};
-            LR.images = [                                                                                        {"id": "27216", "exportFilename": "Lance_and_Rachel_Wedding_160_of_180_-2", "title": "", "caption" : ""},
-                         {"id": "27244", "exportFilename": "DSC_7509-2", "title": "", "caption" : ""},
-                         {"id": "27272", "exportFilename": "DSC_7675-Edit-2", "title": "", "caption" : ""},
-                         {"id": "26191", "exportFilename": "Boxing_1_of_3_", "title": "", "caption" : ""},
-                         {"id": "27136", "exportFilename": "Lance_and_Rachel_Wedding_2_of_180_-2", "title": "", "caption" : ""},
-                         {"id": "26205", "exportFilename": "Boxing_2_of_3_", "title": "", "caption" : ""},
-                         {"id": "26303", "exportFilename": "Car_Black_and_White_24_of_27_", "title": "", "caption" : ""},
-                         {"id": "27182", "exportFilename": "Lance_and_Rachel_Wedding_71_of_180_-2", "title": "", "caption" : ""},
-                         {"id": "26525", "exportFilename": "Noir_1_of_8_", "title": "", "caption" : ""},
-                         {"id": "27196", "exportFilename": "Lance_and_Rachel_Wedding_115_of_180_-2", "title": "", "caption" : ""},
-                         {"id": "26623", "exportFilename": "Rogue_Two", "title": "", "caption" : ""},
-                         {"id": "27168", "exportFilename": "Lance_and_Rachel_Wedding_52_of_180_-2", "title": "", "caption" : ""},
-                         {"id": "26995", "exportFilename": "Wine_Glass_2_of_2_", "title": "", "caption" : ""},
-                         {"id": "27230", "exportFilename": "THS_7796-2", "title": "", "caption" : ""},
-                         {"id": "26911", "exportFilename": "Vancouver_4_of_16_", "title": "", "caption" : ""},
-                         {"id": "27258", "exportFilename": "DSC_7579-2", "title": "", "caption" : ""},
-                         {"id": "26953", "exportFilename": "Waterdrop_1_of_6_", "title": "", "caption" : ""},
-                         {"id": "27286", "exportFilename": "THS_8473-Edit-2", "title": "", "caption" : ""},
-                         {"id": "26721", "exportFilename": "Smoke_Outside1", "title": "", "caption" : ""},
-                         {"id": "26539", "exportFilename": "Noir_3_of_8_", "title": "", "caption" : ""},
-                         {"id": "26735", "exportFilename": "Smoke_Outside7", "title": "", "caption" : ""},
-                         {"id": "26163", "exportFilename": "Biggar_Aragorn", "title": "", "caption" : ""},
-                         {"id": "26441", "exportFilename": "High_Speed_Fruit_1_of_1_", "title": "", "caption" : ""},
-                         {"id": "26869", "exportFilename": "Vancouver_12_of_16_", "title": "", "caption" : ""},
-                         {"id": "26261", "exportFilename": "Car_Black_and_White_10_of_27_", "title": "", "caption" : ""},
-                         {"id": "26289", "exportFilename": "Car_Black_and_White_23_of_27_", "title": "", "caption" : ""},
-                         {"id": "26177", "exportFilename": "Boramir_Stark_Goodman", "title": "", "caption" : ""},
-                         {"id": "26219", "exportFilename": "Boxing_3_of_3_", "title": "", "caption" : ""},
-                         {"id": "26233", "exportFilename": "Camera_Embargo_Day_1_2_of_7_", "title": "", "caption" : ""},
-                         {"id": "27150", "exportFilename": "Lance_and_Rachel_Wedding_9_of_180_-2", "title": "", "caption" : ""},
-                         {"id": "26247", "exportFilename": "Camera_Embargo_Day_1_5_of_7_", "title": "", "caption" : ""},
-                         {"id": "26275", "exportFilename": "Car_Black_and_White_1_of_27_", "title": "", "caption" : ""},
-                         {"id": "26317", "exportFilename": "Car_Black_and_White_27_of_27_", "title": "", "caption" : ""},
-                         {"id": "26707", "exportFilename": "Smoke_1_of_1_", "title": "", "caption" : ""},
-                         {"id": "26799", "exportFilename": "Spotlight_5_of_5_", "title": "", "caption" : ""},
-                         {"id": "26813", "exportFilename": "Studio_Mugs_2_of_4_", "title": "", "caption" : ""},
-                         {"id": "26827", "exportFilename": "Studio_Mugs_3_of_4_", "title": "", "caption" : ""},
-                         {"id": "26883", "exportFilename": "Vancouver_15_of_16_", "title": "", "caption" : ""},
-                         {"id": "26897", "exportFilename": "Vancouver_16_of_16_", "title": "", "caption" : ""},
-                         {"id": "26925", "exportFilename": "Vancouver_5_of_16_", "title": "", "caption" : ""},
-                         {"id": "26939", "exportFilename": "Vancouver_7_of_16_", "title": "", "caption" : ""},
-                         {"id": "26967", "exportFilename": "Waterdrop_6_of_6_", "title": "", "caption" : ""},
-                         {"id": "26981", "exportFilename": "Wine_Glass_1_of_2_", "title": "", "caption" : ""},
-                         {"id": "27009", "exportFilename": "sky_view", "title": "", "caption" : ""},
-                         {"id": "26331", "exportFilename": "Car_Black_and_White_4_of_27_", "title": "", "caption" : ""},
-                         {"id": "26345", "exportFilename": "EZ_Riser_Outside_6_of_6_", "title": "", "caption" : ""},
-                         {"id": "26399", "exportFilename": "Falcon_1_of_1_", "title": "", "caption" : ""},
-                         {"id": "26413", "exportFilename": "Food_Photoshoot_V2_5_of_5_", "title": "", "caption" : ""},
-                         {"id": "26427", "exportFilename": "German_Market_and_Garden_5_of_39_", "title": "", "caption" : ""},
-                         {"id": "26455", "exportFilename": "MRAC_Youth_2_of_29_SPFX", "title": "", "caption" : ""},
-                         {"id": "26469", "exportFilename": "Macro_1_of_5_", "title": "", "caption" : ""},
-                         {"id": "26483", "exportFilename": "Macro_3_of_5_", "title": "", "caption" : ""},
-                         {"id": "26497", "exportFilename": "Macro_5_of_5_", "title": "", "caption" : ""},
-                         {"id": "26841", "exportFilename": "Studio_Mugs_4_of_4_", "title": "", "caption" : ""},
-                         {"id": "26511", "exportFilename": "Mountain_2_of_2_", "title": "", "caption" : ""},
-                         {"id": "26553", "exportFilename": "Other_Stuff_7_of_7_Edit", "title": "", "caption" : ""},
-                         {"id": "26567", "exportFilename": "Pumpkin_Carving_Contest_-_Brandon_Smith_51_of_69_", "title": "", "caption" : ""},
-                         {"id": "26581", "exportFilename": "Random_Adventure_12_of_28_", "title": "", "caption" : ""},
-                         {"id": "26595", "exportFilename": "Random_Adventure_21_of_28_", "title": "", "caption" : ""},
-                         {"id": "26609", "exportFilename": "Random_Adventure_6_of_28_", "title": "", "caption" : ""},
-                         {"id": "26637", "exportFilename": "Roof_With_Mat_11_of_25_", "title": "", "caption" : ""},
-                         {"id": "26651", "exportFilename": "Roof_With_Mat_18_of_25_", "title": "", "caption" : ""},
-                         {"id": "26665", "exportFilename": "Roof_With_Mat_1_of_25_", "title": "", "caption" : ""},
-                         {"id": "26679", "exportFilename": "Roof_With_Mat_21_of_25_", "title": "", "caption" : ""},
-                         {"id": "26693", "exportFilename": "Roof_With_Mat_3_of_25_", "title": "", "caption" : ""},
-                         {"id": "26855", "exportFilename": "Two_Rim_Bounce_4_of_4_", "title": "", "caption" : ""},
+            LR.images = [                                                                                        {"id": "8629", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Lance_and_Rachel_Wedding_2_of_180_-2", "title": "", "caption" : ""},
+                         {"id": "8630", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Lance_and_Rachel_Wedding_9_of_180_-2", "title": "", "caption" : ""},
+                         {"id": "8631", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "Lance_and_Rachel_Wedding_52_of_180_-2", "title": "", "caption" : ""},
+                         {"id": "8632", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Lance_and_Rachel_Wedding_71_of_180_-2", "title": "", "caption" : ""},
+                         {"id": "8633", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Lance_and_Rachel_Wedding_115_of_180_-2", "title": "", "caption" : ""},
+                         {"id": "8634", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Lance_and_Rachel_Wedding_160_of_180_-2", "title": "", "caption" : ""},
+                         {"id": "8635", "largeWidth": "960", "largeHeight": "1200", "exportFilename": "THS_7796", "title": "", "caption" : ""},
+                         {"id": "8636", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "THS_8473-Edit", "title": "", "caption" : ""},
+                         {"id": "8637", "largeWidth": "800", "largeHeight": "1200", "exportFilename": "Biggar_Aragorn", "title": "", "caption" : ""},
+                         {"id": "8638", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "Boramir_Stark_Goodman", "title": "", "caption" : ""},
+                         {"id": "8639", "largeWidth": "798", "largeHeight": "1199", "exportFilename": "Boxing_1_of_3_", "title": "", "caption" : ""},
+                         {"id": "8640", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Boxing_2_of_3_", "title": "", "caption" : ""},
+                         {"id": "8641", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Boxing_3_of_3_", "title": "", "caption" : ""},
+                         {"id": "8642", "largeWidth": "1200", "largeHeight": "800", "exportFilename": "Camera_Embargo_Day_1_2_of_7_", "title": "", "caption" : ""},
+                         {"id": "8643", "largeWidth": "1200", "largeHeight": "800", "exportFilename": "Camera_Embargo_Day_1_5_of_7_", "title": "", "caption" : ""},
+                         {"id": "8644", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Car_Black_and_White_10_of_27_", "title": "", "caption" : ""},
+                         {"id": "8645", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Car_Black_and_White_1_of_27_", "title": "", "caption" : ""},
+                         {"id": "8646", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Car_Black_and_White_23_of_27_", "title": "", "caption" : ""},
+                         {"id": "8647", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Car_Black_and_White_24_of_27_", "title": "", "caption" : ""},
+                         {"id": "8648", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Car_Black_and_White_27_of_27_", "title": "", "caption" : ""},
+                         {"id": "8649", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Car_Black_and_White_4_of_27_", "title": "", "caption" : ""},
+                         {"id": "8650", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "DSC_7509-2", "title": "", "caption" : ""},
+                         {"id": "8651", "largeWidth": "960", "largeHeight": "1200", "exportFilename": "DSC_7579-2", "title": "", "caption" : ""},
+                         {"id": "8652", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "DSC_7675-Edit-2", "title": "", "caption" : ""},
+                         {"id": "8653", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Food_Photoshoot_V2_5_of_5_", "title": "", "caption" : ""},
+                         {"id": "8654", "largeWidth": "1200", "largeHeight": "797", "exportFilename": "German_Market_and_Garden_5_of_39_", "title": "", "caption" : ""},
+                         {"id": "8655", "largeWidth": "709", "largeHeight": "1062", "exportFilename": "High_Speed_Fruit_1_of_1_", "title": "", "caption" : ""},
+                         {"id": "8657", "largeWidth": "1200", "largeHeight": "797", "exportFilename": "Macro_1_of_5_", "title": "", "caption" : ""},
+                         {"id": "8658", "largeWidth": "1200", "largeHeight": "799", "exportFilename": "Mountain_2_of_2_", "title": "", "caption" : ""},
+                         {"id": "8656", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "MRAC_Youth_2_of_29_SPFX", "title": "", "caption" : ""},
+                         {"id": "8659", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Noir_1_of_8_", "title": "", "caption" : ""},
+                         {"id": "8660", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Noir_3_of_8_", "title": "", "caption" : ""},
+                         {"id": "8661", "largeWidth": "900", "largeHeight": "1200", "exportFilename": "Rogue_Two", "title": "", "caption" : ""},
+                         {"id": "8662", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Roof_With_Mat_11_of_25_", "title": "", "caption" : ""},
+                         {"id": "8663", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Roof_With_Mat_18_of_25_", "title": "", "caption" : ""},
+                         {"id": "8664", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Roof_With_Mat_1_of_25_", "title": "", "caption" : ""},
+                         {"id": "8665", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Roof_With_Mat_21_of_25_", "title": "", "caption" : ""},
+                         {"id": "8686", "largeWidth": "1200", "largeHeight": "675", "exportFilename": "sky_view", "title": "", "caption" : ""},
+                         {"id": "8666", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Smoke_1_of_1_", "title": "", "caption" : ""},
+                         {"id": "8667", "largeWidth": "1199", "largeHeight": "798", "exportFilename": "Smoke_Outside1", "title": "", "caption" : ""},
+                         {"id": "8668", "largeWidth": "1200", "largeHeight": "799", "exportFilename": "Smoke_Outside7", "title": "", "caption" : ""},
+                         {"id": "8669", "largeWidth": "798", "largeHeight": "1199", "exportFilename": "Spotlight_5_of_5_", "title": "", "caption" : ""},
+                         {"id": "8670", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Studio_Mugs_2_of_4_", "title": "", "caption" : ""},
+                         {"id": "8671", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "Studio_Mugs_3_of_4_", "title": "", "caption" : ""},
+                         {"id": "8672", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "Studio_Mugs_4_of_4_", "title": "", "caption" : ""},
+                         {"id": "8673", "largeWidth": "960", "largeHeight": "1200", "exportFilename": "THS_7796-2", "title": "", "caption" : ""},
+                         {"id": "8674", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "THS_8473-Edit-2", "title": "", "caption" : ""},
+                         {"id": "8675", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Two_Rim_Bounce_4_of_4_", "title": "", "caption" : ""},
+                         {"id": "8676", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Vancouver_12_of_16_", "title": "", "caption" : ""},
+                         {"id": "8677", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Vancouver_15_of_16_", "title": "", "caption" : ""},
+                         {"id": "8678", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Vancouver_16_of_16_", "title": "", "caption" : ""},
+                         {"id": "8679", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Vancouver_4_of_16_", "title": "", "caption" : ""},
+                         {"id": "8680", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Vancouver_5_of_16_", "title": "", "caption" : ""},
+                         {"id": "8681", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Vancouver_7_of_16_", "title": "", "caption" : ""},
+                         {"id": "8682", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Waterdrop_1_of_6_", "title": "", "caption" : ""},
+                         {"id": "8683", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Waterdrop_6_of_6_", "title": "", "caption" : ""},
+                         {"id": "8684", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Wine_Glass_1_of_2_", "title": "", "caption" : ""},
+                         {"id": "8685", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Wine_Glass_2_of_2_", "title": "", "caption" : ""},
+                         {"id": "8687", "largeWidth": "800", "largeHeight": "1200", "exportFilename": "Photoshoot_061818_5_of_58_", "title": "", "caption" : ""},
+                         {"id": "8688", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Photoshoot_061818_11_of_58_", "title": "", "caption" : ""},
+                         {"id": "8689", "largeWidth": "1200", "largeHeight": "801", "exportFilename": "Photoshoot_061818_42_of_58_", "title": "", "caption" : ""},
+                         {"id": "8690", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "Photoshoot_061818_51_of_58_", "title": "", "caption" : ""},
+                         {"id": "8691", "largeWidth": "801", "largeHeight": "1200", "exportFilename": "Photoshoot_061818_55_of_58_", "title": "", "caption" : ""},
                                     ]        </script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="assets/js/libs/jquery.velocity.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>

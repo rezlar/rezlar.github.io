@@ -4,6 +4,7 @@ html {
 }
 
 .thumb-img {
+  border-color: #000000 !important;
 }
 
 #loupeContainer div.background {
