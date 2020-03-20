@@ -114,7 +114,7 @@ callCallback = function() {
         }
     }
     javascript = javascript + " )"
-    hosteval( javascript )
+    myExt.hosteval( javascript )
 }
 
 pushresult = function( result ) {
