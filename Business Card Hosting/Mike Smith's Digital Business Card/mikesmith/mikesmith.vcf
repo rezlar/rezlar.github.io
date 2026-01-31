@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Smith;Mike;;;
+FN:Mike Smith
+ORG:Ampco Manufacturers Inc.
+ADR;TYPE=WORK:#101-9 Burbidge Street, Coquitlam, BC, V3K 7B2, Canada
+TITLE:VP, Sales & Marketing
+TEL;TYPE=CELL:6043515122
+TEL;TYPE=WORK:6044723820
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:mike.smith@ampcomfg.com
+URL;TYPE=Digital Business Card:
+URL:
+
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:
+UID:EnBizCard-100573301
+END:VCARD
